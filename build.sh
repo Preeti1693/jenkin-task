@@ -21,7 +21,7 @@ cat <<EOF > website/index.html
 </head>
 <body>
     <h1>Welcome to Aadhi Fashion Studio</h1>
-    <p>Trendy kids fashion for every little star 🌟</p>
+    <p>Trendy kids fashion for every little champ 🌟</p>
     <p>Build Time: $(date)</p>
 </body>
 </html>
