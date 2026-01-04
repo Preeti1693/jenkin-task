@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "======================================"
-echo "   AADHI FASHION STUDIO "
+echo "   AADHI FASHION STUDIO!!! "
 echo "======================================"
 
 echo "Build Date: $(date)"
