@@ -32,7 +32,7 @@ EOF
 echo "Website created successfully"
 echo "Files generated:"
 ls website
-sudo cp -r website/* /usr/share/nginx/html/
+cp -r website/* /usr/share/nginx/html/
 
 echo "======================================"
 echo "   BUILD COMPLETED SUCCESSFULLY        "
