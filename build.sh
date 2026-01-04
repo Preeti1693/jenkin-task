@@ -22,7 +22,7 @@ cat <<EOF > website/index.html
 <body>
     <h1>Welcome to Aadhi Fashion Studio</h1>
     <p>Trendy kids fashion for every little champ 🌟</p>
-    <p>Build Time: $(date)</p>
+    <p>Build Time: $(date)</p>  
 </body>
 </html>
 EOF
@@ -30,6 +30,7 @@ EOF
 echo "Website created successfully"
 echo "Files generated:"
 ls website
+sudo cp -r website/* /usr/share/nginx/html/
 
 echo "======================================"
 echo "   BUILD COMPLETED SUCCESSFULLY        "
