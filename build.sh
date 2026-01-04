@@ -23,8 +23,10 @@ cat <<EOF > website/index.html
     <h1>Welcome to Aadhi Fashion Studio</h1>
     <p>Trendy kids fashion for every little champ 🌟</p>
     <p>Build Time: $(date)</p>  
+    <p>Build Time: $(date)</p>
 </body>
 </html>
+
 EOF
 
 echo "Website created successfully"
